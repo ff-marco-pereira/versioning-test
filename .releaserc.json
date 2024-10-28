@@ -1,4 +1,5 @@
 {
+  "repositoryUrl": "https://github.com/ff-marco-pereira/versioning-test.git",
   "branches": ["main"],
   "plugins": [
     [
