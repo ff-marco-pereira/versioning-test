@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           yarn
-          echo ${{ secrets }}
+          echo ${{ secrets.GITHUB_TOKEN }}
 
       - name: Release with Semantic Release
         env:
